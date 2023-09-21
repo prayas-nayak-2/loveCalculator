@@ -1,0 +1,44 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #242020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+img{
+    width: 200px;
+}
+#container{
+    height: 70%;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+h2{
+    color: white;
+}
+a{
+    color: crimson;
+    text-decoration: none;
+}
+
+@media (max-width:500px) and (min-width:0px) {
+    *{
+        font-size: 16px;
+    }
+}
